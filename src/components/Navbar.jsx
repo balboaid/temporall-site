@@ -1,17 +1,16 @@
-import { Link } from "react-router-dom";
+import React from "react";
+import Logo from "./Logo";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex justify-between items-center px-6 py-4 bg-neutral-900 border-b border-neutral-800">
-      <Link to="/" className="text-xl font-bold text-orange-500">TEMPORALL</Link>
-
-      <div className="hidden md:flex gap-6">
-        <Link to="/" className="hover:text-orange-400">Home</Link>
-        <Link to="/events" className="hover:text-orange-400">Events</Link>
-        <Link to="/about" className="hover:text-orange-400">About</Link>
-        <Link to="/investors" className="hover:text-orange-400">Investors</Link>
-        <Link to="/contact" className="hover:text-orange-400">Contact</Link>
-      </div>
+    <nav className="w-full flex justify-center pt-8">
+      <Logo />
+      <ul className="flex gap-10 text-lg font-medium tracking-wide ml-10">
+        <li className="hover:text-gray-300 transition cursor-pointer">Home</li>
+        <li className="hover:text-gray-300 transition cursor-pointer">Events</li>
+        <li className="hover:text-gray-300 transition cursor-pointer">About</li>
+        <li className="hover:text-gray-300 transition cursor-pointer">Contact</li>
+      </ul>
     </nav>
   );
 }

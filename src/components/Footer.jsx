@@ -1,7 +1,9 @@
+import React from "react";
+
 export default function Footer() {
   return (
-    <footer className="p-6 bg-neutral-900 border-t border-zinc-800 text-center text-gray-400">
-      <p>© 2026 TEMPORALL. Todos os direitos reservados.</p>
+    <footer className="w-full py-8 bg-black text-white text-center">
+      &copy; {new Date().getFullYear()} Temporall. All rights reserved.
     </footer>
   );
 }
