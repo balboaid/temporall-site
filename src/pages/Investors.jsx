@@ -9,23 +9,23 @@ export default function Investors() {
       <div className="grid md:grid-cols-3 gap-6 mb-20">
         
         <div className="p-6 bg-neutral-900 rounded-xl border border-neutral-700">
-          <p className="opacity-70">PAX Total Estimado</p>
+          <p className="opacity-70">Estimated Total PAX</p>
           <h2 className="text-3xl font-bold my-2">1.5M+</h2>
         </div>
 
         <div className="p-6 bg-neutral-900 rounded-xl border border-neutral-700">
-          <p className="opacity-70">Investimento Direto</p>
+          <p className="opacity-70">Direct Investment</p>
           <h2 className="text-3xl font-bold my-2">R$ 20M+</h2>
         </div>
 
         <div className="p-6 bg-neutral-900 rounded-xl border border-neutral-700">
-          <p className="opacity-70">ROI Estimado</p>
+          <p className="opacity-70">Estimated ROI</p>
           <h2 className="text-3xl font-bold my-2">12.5x</h2>
         </div>
 
       </div>
 
-      <h2 className="text-2xl font-bold mb-6">Cashflow por Evento</h2>
+      <h2 className="text-2xl font-bold mb-6">Cashflow per Event</h2>
 
       <div className="grid md:grid-cols-4 gap-6">
 

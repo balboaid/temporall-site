@@ -1,3 +1,3 @@
 export default function About() {
-  return <div className="p-20 text-white text-center"><h1>Sobre a Temporall</h1></div>;
+  return <div className="p-20 text-white text-center"><h1>About Temporall</h1></div>;
 }
